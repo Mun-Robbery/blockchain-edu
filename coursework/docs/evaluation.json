@@ -1,0 +1,24 @@
+{
+  "dataset": "synthetic",
+  "project_count": 12,
+  "profile_count": 10,
+  "random_seed": 42,
+  "metrics_macro_average": {
+    "tfidf_cosine": {
+      "precision@3": 0.633333,
+      "recall@3": 0.908333,
+      "ndcg@3": 0.945044,
+      "precision@5": 0.42,
+      "recall@5": 0.966667,
+      "ndcg@5": 0.965255
+    },
+    "random": {
+      "precision@3": 0.066667,
+      "recall@3": 0.075,
+      "ndcg@3": 0.084779,
+      "precision@5": 0.1,
+      "recall@5": 0.233333,
+      "ndcg@5": 0.156542
+    }
+  }
+}
